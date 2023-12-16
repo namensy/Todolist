@@ -1,0 +1,19 @@
+.nav-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch {
+    display: flex;
+    gap: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.switch span {
+    font-size: 20px;
+}

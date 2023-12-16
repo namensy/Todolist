@@ -1,0 +1,30 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    display: flex;
+}
+
+.container{
+    width: 1000px;
+    margin-top: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+}
+
+.Dark {
+    background: #333;
+    color: white;
+}
+
+.Light {
+    background: white;
+    color: black;
+}

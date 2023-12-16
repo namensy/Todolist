@@ -1,0 +1,21 @@
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.7);
+}
+
+.delete-btn {
+    border: none;
+    background: none;
+}
+.delete-btn:hover {
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 20px;
+    font-size: 20px;
+}
