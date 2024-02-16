@@ -7,6 +7,12 @@
     box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.7);
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .delete-btn {
     border: none;
     background: none;
@@ -18,4 +24,12 @@
 .btn {
     margin-left: 20px;
     font-size: 20px;
+    align-items: center;
 }
+
+input[type="checkbox"] {
+    width: 2em;
+    height: 2rem;
+    accent-color: green;
+}
+  

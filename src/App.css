@@ -28,3 +28,14 @@ form input {
     background: white;
     color: black;
 }
+
+@media only screen and (max-width: 1300px) {
+    .container {
+      width: 670px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .container {
+      width: 450px;
+    }
+}

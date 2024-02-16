@@ -11,7 +11,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [editId, setEditId] = useState(null);
   const [title, setTitle] = useState('');
-  const [theme, setTheme] = useState('Light');
+  const [theme, setTheme] = useState('Dark');
 
   useEffect(() => {
     // Fetch data from Firestore when the component mounts

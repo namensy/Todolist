@@ -1,0 +1,21 @@
+.form-control input {
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-control button {
+    background-color: #0179F9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.form-control button:hover {
+    cursor: pointer;
+    background-color: rgba(6, 69, 241, 0.822);
+}

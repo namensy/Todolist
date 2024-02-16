@@ -9,21 +9,21 @@ function Header(props) {
     const { setTheme, theme } = props
 
     const toggleTheme = () => {
-        if (theme === 'Light') {
-            setTheme('Dark')
+        if (theme === 'Light Mode') {
+            setTheme('Dark Mode')
         } else {
-            setTheme('Light')
+            setTheme('Light Mode')
         }
     }
 
     return (
         <nav className='nav-container'>
             <div>
-                <h1>TO-DO LIST Management</h1>
+                <h1>TO-DO LIST</h1>
             </div>
             <div className='switch'>
-                <span>{theme == 'Light' ? <IoPartlySunny /> : <FaCloudMoon /> }</span>
-                <span className='btn' onClick={() => toggleTheme()}>Switch</span>
+                <span>{theme == 'Light Mode' ? <IoPartlySunny /> : <FaCloudMoon /> }</span>
+                <span className='btn' onClick={() => toggleTheme()}>{theme}</span>
             </div>
         </nav>
     )
